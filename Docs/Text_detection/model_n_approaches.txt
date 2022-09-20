@@ -1,0 +1,110 @@
+=====region of proposal=====
+
+R-CNN, SSD, FCN-fully connected
+	Girshick et al., 2014; Liu, Anguelov, et al., 2016; Long et al., 2015
+
+""No more supported package""
+CTPN: sliding window lướt qua (VGG16 + RPN Faster RCNN) và không detect được chữ không thẳng
+	Zhi T, Huang W, Tong H, Yu Q. Detecting Text in Natural Image with Connectionist Text Proposal Network// European Conference on Computer Vision. Springer, Cham, 2016.
+	
+ABCNet: Bezier curves, BezierAlign
+	Liu Y, Chen H, Shen C, He T, Wang L. ABCNet: Real-Time Scene Text Spotting With Adaptive Bezier-Curve Network. 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020
+
+
+
+===== Regression-based text detectors=====
+
+TextBoxes
+	M. Liao, B. Shi, X. Bai, X. Wang, and W. Liu. Textboxes: A fast text detector with a single deep neural network. In AAAI, pages 4161–4167, 2017.
+
+DMPNet
+	Y. Liu and L. Jin. Deep matching prior network: Toward tighter multi-oriented text detection. In CVPR, pages 3454–3461, 2017
+
+Rotation-Sensitive Regression Detector (RSDD)
+	M. Liao, Z. Zhu, B. Shi, G.-s. Xia, and X. Bai. Rotation sensitive regression for oriented scene text detection. In CVPR, pages 5909–5918, 2018
+
+
+
+======semantic segmentation=====
+
+EAST: single neural network + NMS
+	Zhou X , Yao C , Wen H, Wang Y, Zhou S, He W, Liang J. EAST: An Efficient and Accurate Scene Text Detector. IEEE, 2017
+
+PixelLink:
+	Dan D, Liu H, Li X, Deng C. PixelLink: Detecting Scene Text via Instance Segmentation. 2018
+
+PSENet: 
+	Li X, Wang W, Hou W, Liu RZ, Lu T, Yang J. Shape Robust Text Detection with Progressive Scale Expansion Network. 2018
+	
+CRAFT: 2019
+		`region score` - localize individual characters
+		`affinity score - group each character into a single instance.
+	   
+DB  Differentiable Binarization
+	đặt ngưỡng động
+		1. Standard binarization
+			- ngưỡng áp dụng toàn ảnh --> stable threshhold
+		2. Differentiable binarization
+			- công thức khác không adjust với thresh hold
+		3. Ngưỡng động (Adaptive threshold)
+				
+Multi-scale FCN
+	D. He, X. Yang, C. Liang, Z. Zhou, G. Alexander, I. Ororbia, D. Kifer, and C. L. Giles. Multi-scale fcn with cascaded instance aware segmentation for arbitrary oriented word spotting in the wild. In CVPR, pages 474–483, 2017.
+
+Holistic-prediction
+	C. Yao, X. Bai, N. Sang, X. Zhou, S. Zhou, and Z. Cao. Scene text detection via holistic, multi-channel prediction. arXiv preprint arXiv:1606.09002, 2016
+
+SSTD
+	P. He, W. Huang, T. He, Q. Zhu, Y. Qiao, and X. Li. Single shot text detector with regional attention. In ICCV, volume 6, 2017
+
+TextSnake
+	S. Long, J. Ruan, W. Zhang, X. He, W. Wu, and C. Yao. Textsnake: A flexible representation for detecting text of arbitrary shapes. arXiv preprint arXiv:1807.01544, 2018
+
+
+
+=====End-to-end text detectors =====
+
+FOTS Fast oriented text spotting
+	X. Liu, D. Liang, S. Yan, D. Chen, Y. Qiao, and J. Yan. Fots: Fast oriented text spotting with a unified network. In CVPR, pages 5676–5685, 2018
+ 
+EAA explicit alignment and attention
+	T. He, Z. Tian, W. Huang, C. Shen, Y. Qiao, and C. Sun. An end-to-end textspotter with explicit alignment and attention. In CVPR, pages 5020–5029, 2018
+	
+Mask TextSpotter
+	P. Lyu, M. Liao, C. Yao, W. Wu, and X. Bai. Mask textspotter: An end-to-end trainable neural network for spotting text with arbitrary shapes. arXiv preprint arXiv:1807.02242, 2018
+
+YOLO
+
+SSD
+
+
+
+=====Character-level text detectors=====
+
+MSER maximally stable extremal regions
+	J. Matas, O. Chum, M. Urban, and T. Pajdla. Robust widebaseline stereo from maximally stable extremal regions. Image and Vision Computing, 22(10):761–767, 2004
+
+SegLink: Bounding box từng chữ ròi gộp segmentation
+	Shi B, Bai X, Belongie S. Detecting Oriented Text in Natural Images by Linking Segments. IEEE Computer Society, 2017
+
+WordSup:
+	H. Hu, C. Zhang, Y. Luo, Y. Wang, J. Han, and E. Ding. Wordsup: Exploiting word annotations for character based text detection. In ICCV, 2017
+
+
+
+===== unknown =====
+Corner 2018
+RRD 2018
+Long-short term memory (LSTM) (Hochreiter & Schmidhuber, 1997) or bi-LSTM (Schuster & Paliwal, 1997)
+Fast-RCNN, Faster-RCNN
+Classifying Relations by Ranking with Convolutional Neural Networks
+HOG - SIFT
+Attention Mechanism 2014
+graph structure (PS)
+Recurrent Neural Network
+Deep Convolutional Neural Network
+
+
+
+
+
