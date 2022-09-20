@@ -1,0 +1,10 @@
+--> LỊCH TRÌNH
+TUẦN 1: DETECTION (19/9-25/9)
+TUẦN 2: RECOGNITION (26/9-2/10)
+TUẦN 3: DIRECTION CLASSIFY (3/10-9/10)
+TUẦN 4: THỬ BUILD HỆ THỐNG
+
+Tóm tắt công việc cần làm chung ở các tuần:
+--> Tìm hiểu các giải thuật/ mạng model được sử dụng ở bài toán (Chủ yếu từ khóa và data của giải thuật/ mạng model đó sử dụng trong ngày đầu, các ngày sau tìm hiểu sâu hơn về thuật toán) (est 3 ngày)
+--> Thu thập data theo giải thuật/ mạng model mình đánh giá là có tiềm năng (est 1 ngày)
+--> Huấn luyện thử và adjust model nếu cần (est 2 ngày). Trong lúc đợi thì tìm hiểu thêm về thuật toán/ mạng model để cải thiện kết quả hơn
